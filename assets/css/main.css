@@ -3629,15 +3629,21 @@ input, select, textarea {
 			-moz-object-position: left;
 			-webkit-object-position: left;
 			-ms-object-position: left;
-			object-position: left;
+			object-position: center;
 		}
 
 		.banner.style1.image-position-right .image img {
 			-moz-object-position: right;
 			-webkit-object-position: right;
 			-ms-object-position: right;
-			object-position: right;
+			object-position: center;
 		}
+				.center {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+				}
 
 /* Banner (style2) */
 
